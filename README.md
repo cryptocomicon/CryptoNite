@@ -1,6 +1,9 @@
 # CryptoNite
 A Visual Studio (Windows) C console application program to evaluate CryptoNite performance.
 
+![![Chart](Data.png?raw=true "CryptoNite Performance on Various CPUs")
+](Data.png?raw=true "CryptoNite Performance on Various CPUs")
+
 ## Motivativation
 
 Moving toward one CPU one Vote. This program collects performance information which will inform this effort.
