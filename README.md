@@ -48,3 +48,7 @@ Memory(KB)	AVG ms/hash	STD
 4	18.5	3.66
 
 2	19.1	2.95
+
+# Windows x64 binary
+
+[ZIP with Binary](CryptoNite.zip)
