@@ -1,18 +1,19 @@
 # CryptoNite
 A Visual Studio (Windows) C console application program to evaluate CryptoNite performance.
 
-## Motivativation:
+## Motivativation
 
 Moving toward one CPU one Vote. This program collects performance information which will inform this effort.
 
-## Command line:
+## Command line
 
 CryptoNite [disable_AES_HW]
 
 
-## Example output:
+## Example output
 
 AES H/W support is present:	FALSE
+
 N hashes:	20
 
 Memory(KB)	AVG ms/hash	STD
