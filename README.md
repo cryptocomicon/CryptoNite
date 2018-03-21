@@ -1,8 +1,8 @@
-# CryptoNite
-A Visual Studio (Windows) C console application program to evaluate CryptoNite performance.
+# CryptoNote
+A Visual Studio (Windows) C console application program to evaluate CryptoNote performance.
 
-![![Chart](Data.png?raw=true "CryptoNite Performance on Various CPUs")
-](Data.png?raw=true "CryptoNite Performance on Various CPUs")
+![![Chart](Data.png?raw=true "CryptoNote Performance on Various CPUs")
+](Data.png?raw=true "CryptoNote Performance on Various CPUs")
 
 ## Motivation
 
@@ -10,11 +10,11 @@ Moving toward one CPU one Vote. This program collects performance information wh
 
 ## Overview
 
-CrytoNite is designed to run efficiently on CPUs which have several MB of low latency memory available. AES operations are carried out on a 2MB buffer.
+CrytoNote is designed to run efficiently on CPUs which have several MB of low latency memory available. AES operations are carried out on a 2MB buffer.
 
-The presumption is that CPUs have enough available low latency memory to run CryptoNite without memory latency bottlenecks with a 2 MB buffer.
+The presumption is that CPUs have enough available low latency memory to run CryptoNote without memory latency bottlenecks with a 2 MB buffer.
 
-However, using this program, I have found that memory latency becomes a bottleneck for CPUs for a CryptoNite buffer size somewhere between 128KB and 256KB
+However, using this program, I have found that memory latency becomes a bottleneck for CPUs for a CryptoNote buffer size somewhere between 128KB and 256KB
 
 ## Long term approach
 
@@ -22,9 +22,9 @@ In order to have one CPU (core) one vote, we need a POW hash algorithm which req
 
 The goal is to make it very hard for any ASIC designer to create a circuit which will have any significant cost/performance benefit over a generic CPU.
 
-Note that AES hardware support apparently doubles the hash rate for CryptoNite. 
+Note that AES hardware support apparently doubles the hash rate for CryptoNote. 
 
-By choosing an appropriate memory size and number of iterations for CrytoNite, it is possible to target only CPUs with AES hardware support and low latency memory. No other device would be able to complete a single hash within the block time.
+By choosing an appropriate memory size and number of iterations for CrytoNote, it is possible to target only CPUs with AES hardware support and low latency memory. No other device would be able to complete a single hash within the block time.
 
 For verification, intermediate hash data may be saved to the blockchain and used by a highly parallel (GPU) algorithm to verify each block efficiently.
 
